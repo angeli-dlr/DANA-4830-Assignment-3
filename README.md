@@ -1,2 +1,2 @@
-# DANA-4830-Assignment-3
- Acute Kidney Injury (AKI) Prediction
+# Acute Kidney Injury (AKI) Prediction
+The goal of this project is to develop a machine learning model to classify individuals based on their likelihood of developing Acute Kidney Injury (AKI). For those identified with AKI, the model further predicts whether they are receiving dialysis treatment. This involved using AUC-ROC for optimal model evaluation, emphasizing recall to minimize false negatives in AKI detection. Key techniques applied include outlier removal using Mahalanobis distance, missing data imputation with LightGBM regressor, feature extraction using PCA and univariate selection, and model interpretability through SHAP. Additionally, scikit-learn pipelines were used for efficient grid search cross-validation and model reusability.
